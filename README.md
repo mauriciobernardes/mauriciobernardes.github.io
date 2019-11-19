@@ -1,2 +1,2 @@
-# mauriciobernardes.github.io
+# http://mauriciobernardes.github.io
 Meu portífolio
