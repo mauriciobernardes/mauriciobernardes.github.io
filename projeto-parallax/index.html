@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Parallax</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+
+			/*Configurações padrões da página*/
+
+			body, html {
+				margin: 0;
+				font: 16px "Lato", sans-serif;
+				color: #777;
+				height: 100%; /*necessario manter o height em 100% para realizar o efeito de parallax*/
+			}
+			
+			.conteudo {
+				color: #777;
+				background-color: white;
+				text-align: justify;
+				padding: 50px 80px; 
+			}
+
+			h3 {
+				text-transform: uppercase;
+				color: #111;
+				text-align: center;
+			}
+
+			p {
+				margin-bottom: 20px;
+			}
+
+			/*Estilo parallax*/
+			.caixa1, .caixa2, .caixa3, .caixa4 {
+				position: relative;
+				height: 100%;
+				opacity: 0.6;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+			}
+
+
+			.caixa1 {
+				background-image: url(https://i.ibb.co/ZfWRH97/imagem1.jpg);
+			}
+		
+			.caixa2 {
+				background-image: url(https://i.ibb.co/Ky3Rxbj/imagem2.jpg);
+			}
+			.caixa3 {
+				background-image: url(https://i.ibb.co/Tc5zjzG/imagem3.jpg);
+			}
+			.caixa4 {
+				background-image: url(https://i.ibb.co/3YbXd4N/imagem4.jpg);
+			}
+
+			.conteudo-titulo {
+				position: absolute;
+				left: 0;
+				top: 45%;
+				width: 100%;
+				text-align: center;
+			}
+
+			.conteudo-titulo span.titulo {
+				color: #FFF;
+				background-color: #111;
+				padding: 18px;
+				font-size: 25px;
+				letter-spacing: 5px;
+				text-transform: uppercase;
+
+			}
+
+
+
+		</style>
+
+	</head>
+
+	<body>
+		
+		<div class="caixa1">
+			<div class="conteudo-titulo">
+				<span class="titulo">PASSEIO DE BALÕES</span>
+			</div>
+		</div>
+		<div class="conteudo">
+			<h3>Parallax</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad pariatur commodi totam praesentium possimus, a est animi, fugiat, voluptatem vitae adipisci quo cupiditate aliquam illo perspiciatis tempore debitis recusandae tempora. loremLorem ipsum dolor sit amet, consectetur adipisicing elit. Minus consequatur dicta, enim, voluptas, fugiat praesentium dolorum mollitia vel eius reiciendis illum alias harum ab provident veniam, tempora assumenda doloremque accusantium!
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad pariatur commodi totam praesentium possimus, a est animi, fugiat, voluptatem vitae adipisci quo cupiditate aliquam illo perspiciatis tempore debitis recusandae tempora. loremLorem ipsum dolor sit amet, consectetur adipisicing elit. Minus consequatur dicta, enim, voluptas, fugiat praesentium dolorum mollitia vel eius reiciendis illum alias harum ab provident veniam, tempora assumenda doloremque accusantium!
+			</p>
+		</div>
+		<div class="caixa2">
+			<div class="conteudo-titulo">
+				<span class="titulo">PEGANDO A ESTRADA</span>
+			</div>
+		</div>
+		
+		<div class="conteudo">
+			<h3>Parallax</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad pariatur commodi totam praesentium possimus, a est animi, fugiat, voluptatem vitae adipisci quo cupiditate aliquam illo perspiciatis tempore debitis recusandae tempora. loremLorem ipsum dolor sit amet, consectetur adipisicing elit. Minus consequatur dicta, enim, voluptas, fugiat praesentium dolorum mollitia vel eius reiciendis illum alias harum ab provident veniam, tempora assumenda doloremque accusantium!
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad pariatur commodi totam praesentium possimus, a est animi, fugiat, voluptatem vitae adipisci quo cupiditate aliquam illo perspiciatis tempore debitis recusandae tempora. loremLorem ipsum dolor sit amet, consectetur adipisicing elit. Minus consequatur dicta, enim, voluptas, fugiat praesentium dolorum mollitia vel eius reiciendis illum alias harum ab provident veniam, tempora assumenda doloremque accusantium!
+			</p>
+		</div>
+
+		<div class="caixa3">
+			<div class="conteudo-titulo">
+				<span class="titulo">PÔR DO SOL</span>
+			</div>
+		</div>
+
+		<div class="caixa4">
+			<div class="conteudo-titulo">
+				<span class="titulo">MONTANHAS</span>
+			</div>
+		</div>
+
+
+	</body>
+
+</html>
