@@ -1,6 +1,6 @@
 html {
-	scroll-behavior: smooth;
 	overflow-y:hidden;
+	scroll-behavior: smooth;
 }
 
 p {
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 .voltar-topo {
   position: fixed;
   right: 6%;
-  top: 98%;
+  top: 95%;
   width: 8em;
   margin-top: -2.5em;
   list-style: none;
