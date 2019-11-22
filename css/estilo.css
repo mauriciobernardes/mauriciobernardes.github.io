@@ -1,5 +1,6 @@
 html {
 	scroll-behavior: smooth;
+	overflow-y:hidden;
 }
 
 p {
@@ -67,9 +68,28 @@ h1, h2, h3, h4, h5 {
 
 .voltar-topo {
   position: fixed;
-  right: 4%;
-  top: 96%;
+  right: 6%;
+  top: 98%;
   width: 8em;
   margin-top: -2.5em;
   list-style: none;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.marketing h2 {
+  	margin-top: 20px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #1ba39c;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
 }
